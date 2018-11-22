@@ -39,15 +39,17 @@
   </header>
   <main>
     <section class="sort-form">
-      <form action="">
+      <h3 class="visually-hidden">Настройки фильтров поиска</h3>
+      <form action="/echo" method="post">
         <div class="range-field-wrapper">
-          <legend>Стоимость:</legend>
+          <b>Стоимость:</b>
           <div class="range-bar">
             <label>
               <span class="range-scale visually-hidden">Шкала от и до</span>
               <span class="range-btn range-btn-from"></span>
               <span class="range-btn range-btn-to"></span>
             </label>
+            </div>
             <ul class="range-fields">
               <li class="range-field">
                 <label for="range1">От</label>
@@ -59,7 +61,7 @@
               </li>
             </ul>
           </div>
-          <div class="grid-type">
+          <fieldset class="grid-type">
             <legend>Сетка</legend>
             <label>
               <input type="radio" name="grid" value="adaptive">
@@ -73,8 +75,8 @@
               <input type="radio" name="grid" value="rubber">
               Резиновая
             </label>
-          </div>
-          <div class="features">
+          </fieldset>
+          <fieldset class="features">
             <label>
               <input type="checkbox" name="slider" checked>
               Слайдер
@@ -95,8 +97,8 @@
               <input type="checkbox" name="cart">
               Корзина
             </label>
-          </div>
-          <button type="submit" class "btn">Показать</button>
+          </fieldset>
+          <button type="submit" class="btn">Показать</button>
       </form>
     </section>
     <section class="templates">
@@ -120,7 +122,7 @@
       </div>
       <ul>
         <li class="template-sedona">
-          <img src="img/img-sedona.jpg" alt="Сайт Седона" width="360px" height="576px">
+          <img src="img/img-sedona.jpg" alt="Сайт Седона">
           <div class="template-hover">
             <h3>Sedona</h3>
             <p>Информационный сайт для туристов</p>
@@ -128,7 +130,7 @@
           </div>
         </li>
         <li class="template-pink">
-          <img src="img/img-pink.jpg" alt="лендинг Pink" width="360px" height="576px">
+          <img src="img/img-pink.jpg" alt="лендинг Pink">
           <div class="template-hover">
             <h3>Pink app</h3>
             <p>Продуктовый лендинг<br />приложения для iOS и Android</p>
@@ -136,15 +138,15 @@
           </div>
         </li>
         <li class="template-barbershop">
-          <img src="img/img-barbershop.jpg" alt="сайт Бородинский" width="360px" height="576px">
+          <img src="img/img-barbershop.jpg" alt="сайт Бородинский">
           <div class="template-hover">
             <h3>barbershop</h3>
-            <p>Сайт салоны красоты.Для мужчин, да.</p>
+            <p>Сайт салона красоты для мужчин.</p>
             <a href="#" class="button">9 900 руб.</a>
           </div>
         </li>
         <li class="template-mishka">
-          <img src="img/img-mishka.jpg" alt="сайт Mishka " width="360px" height="576px">
+          <img src="img/img-mishka.jpg" alt="сайт Mishka ">
           <div class="template-hover">
             <h3>mishka</h3>
             <p>Интернет-магазин вязаных игрушек</p>
@@ -152,7 +154,7 @@
           </div>
         </li>
         <li class="template-aplus">
-          <img src="img/img-aplus.jpg" alt="лендинг aplus" width="360px" height="576px">
+          <img src="img/img-aplus.jpg" alt="лендинг aplus">
           <div class="template-hover">
             <h3>a-plus</h3>
             <p>Лендинг курсов повышения квалификации</p>
@@ -160,7 +162,7 @@
           </div>
         </li>
         <li class="template-kvast">
-          <img src="img/img-kvast.jpg" alt="сайт кваст" width="360px" height="576px">
+          <img src="img/img-kvast.jpg" alt="сайт кваст">
           <div class="template-hover">
             <h3>Кваст</h3>
             <p>Промо-сайт производителя крафтового кваса</p>
@@ -178,12 +180,13 @@
   </main>
   <footer class="page-footer">
     <section class="contacts">
-      <img src="img/map-background.jpg" alt="Карта с адресом офиса Nerds" width="1440px" height="400px">
+      <img src="img/map-background.jpg" alt="Карта с адресом офиса Nerds">
       <div class="contact-block">
         <h4>Nёrds designed studio</h4>
         <p>191186, Санкт-Петербург,<br /> ул. Б. Конюшенная, д. 19/8</p>
         <p>тел. +7 (812) 275-75-75</p>
         <a href="#" class="button">Напишите нам</a>
+      </div>
     </section>
     <div class="footer-social">
       <a href="#">
