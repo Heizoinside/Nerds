@@ -6,6 +6,7 @@ body {
   line-height: 24px;
   color: #283136;
   background-color:#ffffff;
+  min-width: 900px;
 }
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden
@@ -30,17 +31,16 @@ a {
 .navigation {
   background-color: #eeeeee;
   height:auto;
-  margin:0 auto;
-  text-align:left;
 }
 .main-navigation {
   list-style:none;
   margin:0 auto;
   padding:0;
   display:flex;
-  width:1160px;
   align-content: center;
   align-items: center;
+  width:1160px;
+  text-align: left;
 }
 .navigation-link {
   color:#000000;
