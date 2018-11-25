@@ -53,8 +53,12 @@ a {
   padding-top:25px;
   text-align: center;
   width:100px;
-  outline:1px solid red;
-
+}
+.main-navigation-cart {
+  margin-left:auto;
+  width:75px;
+  padding-top:25px;
+  padding-left:40px;
 }
 .main-navigation-item:nth-child(2)  {
   margin-left:15px;
@@ -87,14 +91,6 @@ a {
 }
 .main-navigation-logo:active path {
   fill:#a6a6a6;
-}
-.main-navigation-cart {
-  margin-left:auto;
-  width:75px;
-  padding-top:25px;
-  padding-left:40px;
-  outline:1px solid red;
-
 }
 .slider {
   overflow: hidden;
