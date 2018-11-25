@@ -29,21 +29,22 @@ img {
 a {
   text-decoration: none;
 }
-.layout {
+.main-navigation-wrapper {
   background-color: #eeeeee;
+  width:100%;
+}
+.container {
+  width:1161px;
+  margin:0 auto;
 }
 .navigation {
   height:auto;
   position: relative;
-  width:1160px;
-  margin:0 auto;
 }
 .main-navigation {
   list-style:none;
   padding:0;
   margin:0;
-  display:-webkit-box;
-  display:-ms-flexbox;
   display:flex;
   padding-top:49px;
   padding-left:344px;
@@ -97,8 +98,6 @@ a {
   overflow: hidden;
   background-color: #eeeeee;
   position: relative;
-  width:1160px;
-  margin:0 auto;
 }
 .slider input[type="radio"] {
   display: none;
@@ -110,15 +109,15 @@ a {
   z-index: 99;
 }
 .slider-controls label {
-    display: inline-block;
-  	width: 10px;
-  	height: 10px;
-  	margin: 0 4px;
-  	vertical-align: middle;
-  	background-color: #ffffff;
-  	border: 4px solid #ffffff;
-  	border-radius: 100%;
-    cursor: pointer;
+  display:inline-block;
+  width:8px;
+  height:8px;
+  margin:0 3px;
+  background:white;
+  border:8px solid white;
+  vertical-align:top;
+  border-radius:50%;
+  cursor:pointer;
 }
 #slider-1:checked ~ .slider-controls label[for="slider-1"],
 #slider-2:checked ~ .slider-controls label[for="slider-2"],
@@ -198,8 +197,6 @@ a {
   color:#e26f72;
 }
 .features {
-  width: 1161px;
-  margin:0 auto;
   min-height: 428px;
 }
 .features-list {
@@ -262,8 +259,6 @@ a {
   color:#edc265;
 }
 .about-us {
-  width:1160px;
-  margin:0 auto;
   border-top:2px solid #eeeeee;
   border-bottom:2px solid #eeeeee;
   display:-webkit-box;
@@ -344,10 +339,6 @@ a {
   padding-top:27px;
   line-height: 18px;
 }
-.examples {
-  margin:0 auto;
-  width: 1160px;
-}
 .partners-list {
   list-style: none;
   margin: 0;
@@ -403,8 +394,4 @@ a {
 }
 .partner-item a:active {
   opacity:0.2;
-}
-.page-footer {
-  width:1440px;
-  margin:0 auto;
 }
