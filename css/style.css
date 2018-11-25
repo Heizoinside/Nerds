@@ -6,7 +6,6 @@ body {
   line-height: 24px;
   color: #283136;
   background-color:#ffffff;
-  min-width: 900px;
 }
 .visually-hidden:not(:focus):not(:active),
 input[type="checkbox"].visually-hidden
@@ -28,22 +27,16 @@ img {
 a {
   text-decoration: none;
 }
-.container-grey {
-  background-color: #eeeeee;
-  width:1161px;
-  margin:0 auto;
-  text-align: left;
-}
 .container {
-  width:1161px;
   margin:0 auto;
-  text-align: left;
+  text-align:left;
+  width:1160px;
+}
+.layout {
+  background-color: #eeeeee;
 }
 .navigation {
   height:auto;
-  margin:0 auto;
-  width:1160px;
-  text-align: left;
 }
 .main-navigation {
   list-style:none;
@@ -51,6 +44,8 @@ a {
   display:flex;
   align-content: center;
   align-items: center;
+  margin:0;
+
 }
 .navigation-link {
   color:#000000;
@@ -103,6 +98,7 @@ a {
 }
 .slider {
   overflow: hidden;
+  background-color: #eeeeee;
   position: relative;
 }
 .slider input[type="radio"] {
@@ -137,6 +133,7 @@ a {
 }
 .slider-inner {
   height:415px;
+
 }
 .slide {
   display: none;
@@ -257,6 +254,8 @@ a {
   color:#edc265;
 }
 .about-us {
+  width:1160px;
+  margin:0 auto;
   border-top:2px solid #eeeeee;
   border-bottom:2px solid #eeeeee;
   display:flex;
@@ -332,6 +331,10 @@ a {
 .about td {
   padding-top:27px;
   line-height: 18px;
+}
+.examples {
+  margin:0 auto;
+  width: 1160px;
 }
 .partners-list {
   list-style: none;
