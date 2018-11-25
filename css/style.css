@@ -38,15 +38,30 @@ a {
 }
 .navigation {
   height:auto;
+  position: relative;
 }
 .main-navigation {
   list-style:none;
   padding:0;
-  display:flex;
-  align-content: center;
-  align-items: center;
   margin:0;
+  display:flex;
+  padding-top:49px;
+  padding-left:344px;
+  margin-bottom:26px;
+}
+.main-navigation-item  {
+  padding-top:25px;
+  text-align: center;
+  width:100px;
+  outline:1px solid red;
 
+}
+.main-navigation-item:nth-child(2)  {
+  margin-left:15px;
+}
+.main-navigation-item:nth-child(3)  {
+  margin-left:23px;
+  margin-right:23px;
 }
 .navigation-link {
   color:#000000;
@@ -63,26 +78,9 @@ a {
 .navigation-link.active {
   box-shadow: 0 2px #fb565a;
 }
-.main-navigation-item  {
-  padding-top:50px;
-  text-align: center;
-  width:100px;
-  align-content: center;
-  align-items: center;
-
-}
-.main-navigation-item:nth-child(3)  {
-  margin-left:15px;
-}
-.main-navigation-item:nth-child(4)  {
-  margin-left:25px;
-  margin-right:25px;
-}
 .main-navigation-logo {
-  width:162px;
-  height:80px;
-  padding-top:49px;
-  margin-right:180px;
+  top:50px;
+  position:absolute;
 }
 .main-navigation-logo:hover path {
   fill:#303030;
@@ -93,7 +91,7 @@ a {
 .main-navigation-cart {
   margin-left:auto;
   width:75px;
-  padding-top:50px;
+  padding-top:25px;
   padding-left:40px;
   outline:1px solid red;
 
