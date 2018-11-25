@@ -48,7 +48,7 @@ a {
   display:flex;
   padding-top:49px;
   padding-left:344px;
-  margin-bottom:26px;
+  padding-bottom:26px;
 }
 .main-navigation-item  {
   padding-top:25px;
@@ -59,7 +59,12 @@ a {
   margin-left:auto;
   width:75px;
   padding-top:25px;
-  background-color: #eee;
+  position: relative;
+}
+.main-navigation-cart svg {
+  position:absolute;
+  left:-40px;
+  bottom:7px;
 }
 .main-navigation-item:nth-child(2)  {
   margin-left:15px;
