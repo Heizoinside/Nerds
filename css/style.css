@@ -217,7 +217,6 @@ a {
   text-transform: uppercase;
   color: #fff;
   font-weight: 400;
-  padding: 15px 40px;
 }
 
 .btn-red-big {
@@ -468,9 +467,41 @@ a {
 .partner-item a:active {
   opacity: 0.2;
 }
+.map-and-contacts {
+  position: relative;
+  margin-top:75px;
+}
+.contacts {
+  background: #fff;
+  position:absolute;
+  top:58px;
+  padding-left:53px;
+  padding-right:53px;
+  padding-bottom: 47px;
+  padding-top:47px;
 
-.page-footer {
-  text-align: center;
-  width: 1440px;
-  margin: 0 auto;
+}
+.contacts h4 {
+  padding:0;
+  margin:0;
+  font-size: 18px;
+  line-height: 30px;
+  text-transform: uppercase;
+  padding-bottom:20px;
+}
+.contacts p {
+  padding:0;
+  margin:0;
+  font-size:inherit;
+  line-height: 18px;
+  color: #666666;
+  padding-bottom: 22px;
+}
+.btn-red-write {
+  padding:15px 45px;
+  background-color: #fb565a;
+  border:none;
+  border-radius:2px;
+  margin-top:15px;
+  cursor:pointer;
 }
