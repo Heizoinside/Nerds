@@ -30,15 +30,19 @@ a {
   text-decoration: none;
 }
 
-.main-navigation-wrapper {
-  background-color: #eeeeee;
+.main-wrapper {
   width: 1440px;
   margin: 0 auto;
+
 }
 
 .container {
   width: 1161px;
   margin: 0 auto;
+}
+.grey-layout {
+  background-color:#eee;
+  width:100%;
 }
 
 .navigation {
