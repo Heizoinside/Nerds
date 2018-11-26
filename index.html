@@ -9,8 +9,8 @@
 </head>
 
 <body>
-  <div class="wrapper">
-        <header class="navigation container">
+        <header class="navigation">
+          <div class="container">
           <div class="main-navigation-logo">
             <a href="index.html">
               <svg xmlns="http://www.w3.org/2000/svg" width="160" height="65" viewBox="0 0 160 65">
@@ -43,9 +43,10 @@
               Корзина
             </a>
           </div>
-
+        </div>
         </header>
         <h1 class="visually-hidden">Студия веб-дизайна "Nerds"</h1>
+         <div class="slider-background">
         <section class="slider container">
             <input type="radio" id="slider-1" name="slide" checked>
             <input type="radio" id="slider-2" name="slide">
@@ -58,7 +59,7 @@
             <div class="slider-inner">
               <div class="slide slide-first">
                 <div class="slide-column">
-                  <h3>Долго, дорого, скрупулезно.</h3>
+                  <h3>Долго, дорого,<br /> скрупулезно.</h3>
                   <p>Математически выверенный дизайн<br />для вашего сайта или мобильного приложения.</p>
                   <a href="#" class="button btn-red-big">Узнать больше</a>
                 </div>
@@ -68,7 +69,7 @@
               </div>
               <div class="slide slide-second">
                 <div class="slide-column">
-                  <h3>Любим математику, как никто другой</h3>
+                  <h3>Любим математику,<br /> как никто другой</h3>
                   <p>Никакого креатива, только математические формулы<br /> для расчета идеальных пропорций.</p>
                   <a href="#" class="button btn-red-big">Узнать больше</a>
                 </div>
@@ -78,8 +79,8 @@
               </div>
               <div class="slide slide-third">
                 <div class="slide-column">
-                  <h3>Только ночь, только хардкор</h3>
-                  <p>Работать днем, как все? Мы против этого.Ближе к полуночи работа только начинается.</p>
+                  <h3>Только ночь,<br /> только хардкор</h3>
+                  <p>Работать днем, как все? Мы против этого.<br />Ближе к полуночи работа только начинается.</p>
                   <a href="#" class="button btn-red-big">Узнать больше</a>
                 </div>
                 <div class="slide-column">
@@ -89,9 +90,8 @@
             </div>
           </section>
         </div>
-        <main class="wrapper">
-            <div class="container">
-      <section class="features">
+        <main>
+      <section class="features container">
         <h2 class="visually-hidden">Популярные товары</h2>
         <ul class="features-list">
           <li class="feature-item">
@@ -114,7 +114,7 @@
           </li>
         </ul>
       </section>
-      <article class="about-us">
+      <article class="about-us container">
         <h2 class="visually-hidden">О нас</h2>
         <section class="about-us-text">
           <h3>Мы — маленькая, но гордая дизайн-студия из Краснодара.</h3>
@@ -150,7 +150,7 @@
           </ul>
         </section>
       </article>
-      <article class="examples">
+      <article class="examples container">
         <h2 class="visually-hidden">Примеры сайтов сделанных Nёrds</h2>
         <ul class="partners-list">
           <li class="partner-item">
@@ -167,7 +167,6 @@
           </li>
         </ul>
       </article>
-      </div>
       </main>
     <footer class="page-footer">
       <section class="contacts">
