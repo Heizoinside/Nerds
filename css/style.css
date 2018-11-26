@@ -508,6 +508,7 @@ a {
 .page-footer {
   padding-top:65px;
   display:flex;
+  padding-bottom:65px;
 }
 .footer-social {
   margin-right:auto;
