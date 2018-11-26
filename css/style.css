@@ -6,6 +6,8 @@ body {
   line-height: 24px;
   color: #283136;
   background-color: #ffffff;
+  width:1440px;
+  margin:0 auto;
 }
 
 .visually-hidden:not(:focus):not(:active),
