@@ -1,0 +1,374 @@
+Skip to content
+
+Pull requests
+Issues
+Marketplace
+Explore
+
+@Heizoinside
+
+1
+0
+
+0
+
+KasiMaru/nerds
+Code
+Issues 0
+Pull requests 0
+Projects 0
+Wiki
+Insights
+nerds/index.html
+50f3c63 on 24 Jan
+@KasiMaru KasiMaru Добавил фавиконки и опенграф
+357 lines (320 sloc) 14.2 KB
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta property="og:image" content="images/og-image.jpg">
+  <meta property="og:image:height" content="203">
+  <meta property="og:image:width" content="388">
+  <meta property="og:url" content="https://kasimaru.github.io/nerds/">
+  <meta property="og:title" content="Ненастоящая веб-студия в настоящем Краснодаре!">
+  <meta property="og:description" content="По-ненастоящему работаем за настоящую еду">
+
+  <link rel="manifest" href="favicons/manifest.json">
+  <link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicons/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicons/favicon-16x16.png">
+  <link rel="mask-icon" href="favicons/safari-pinned-tab.svg" color="#4b8aad">
+  <meta name="theme-color" content="#fafafa">
+
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Nёrds</title>
+</head>
+
+<body>
+  <div class="content">
+    <div class="accent-bg">
+      <header class="page-header page-header--index container">
+        <div class="page-header__logo">
+          <a class="nerds-logo">
+            <img src="images/content/nerds-logo.svg" alt="Нёрдс" width="160" height="65">
+          </a>
+        </div>
+
+        <nav class="page-header__menu">
+          <ul class="navigation">
+            <li class="navigation__item navigation__item--current">
+              <a class="navigation__link" href="#">Студия</a>
+            </li>
+
+            <li class="navigation__item">
+              <a class="navigation__link">Клиенты</a>
+            </li>
+
+            <li class="navigation__item">
+              <a href="catalog.html" class="navigation__link">Магазин</a>
+            </li>
+
+            <li class="navigation__item">
+              <a class="navigation__link">Контакты</a>
+            </li>
+          </ul>
+        </nav>
+
+        <div class="page-header__cart">
+          <a href="#" class="cart">
+            <svg width="15" height="15">
+              <use xlink:href="images/icons/sprite.svg#icon-cart"></use>
+            </svg>
+            <span class="cart__text">Корзина</span>
+          </a>
+        </div>
+      </header>
+
+      <article class="hero container">
+        <h2 class="visually-hidden">Наши фичи</h2>
+        <section class="hero__slide hero__slide--active">
+          <div class="hero__info">
+            <h3 class="hero__heading main-heading">Долго, дорого, скрупулезно.</h3>
+            <p class="hero__para">
+              Математически выверенный дизайн
+              <br>
+              для вашего сайта или мобильного приложения.
+            </p>
+            <div class="hero__btn-container">
+              <a class="btn btn--custom-size" href="#">Узнать больше</a>
+            </div>
+          </div>
+          <div class="hero__img-container">
+            <img class="hero__image" src="images/content/slide1.png" width="698" height="413" alt="Шаблоны мобильных приложений">
+          </div>
+        </section>
+
+        <section class="hero__slide">
+          <div class="hero__info">
+            <h3 class="hero__heading main-heading">Любим&nbsp;математику как никто другой</h3>
+            <p class="hero__para">
+              Никакого креатива, только математические формулы для расчета идеальных пропорций.
+            </p>
+            <div class="hero__btn-container">
+              <a class="btn btn--custom-size" href="#">Узнать больше</a>
+            </div>
+          </div>
+          <div class="hero__img-container">
+            <img class="hero__image hero__image--up" src="images/content/slide2.png" width="663" height="430" alt="Шаблоны десктопных приложений">
+          </div>
+        </section>
+
+        <section class="hero__slide">
+          <div class="hero__info">
+            <h3 class="hero__heading main-heading">Только ночь, только хардкор</h3>
+            <p class="hero__para">
+              Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.
+            </p>
+            <div class="hero__btn-container">
+              <a class="btn btn--custom-size" href="#">Узнать больше</a>
+            </div>
+          </div>
+          <div class="hero__img-container">
+            <img class="hero__image" src="images/content/slide3.png" width="759" height="411" alt="Шаблоны планшетных приложений">
+          </div>
+        </section>
+
+        <div class="slider-toggles hero__toggles">
+          <button class="slider-toggles__btn slider-toggles__btn--active" type="button">
+            <span class="visually-hidden">Слайд 1</span>
+          </button>
+          <button class="slider-toggles__btn" type="button">
+            <span class="visually-hidden">Слайд 2</span>
+          </button>
+          <button class="slider-toggles__btn" type="button">
+            <span class="visually-hidden">Слайд 3</span>
+          </button>
+        </div>
+      </article>
+    </div>
+
+    <section class="services border-bottom container">
+      <h2 class="visually-hidden">Услуги и предложения:</h2>
+      <ul class="services__list">
+        <li class="services__item services__item--websites">
+          <h3 class="services__heading">Веб-сайты</h3>
+          <p class="services__para">
+            Мир никогда не будет прежним после того как увидит ваш сайт!
+          </p>
+          <a class="btn" href="#">Заказать</a>
+        </li>
+
+        <li class="services__item services__item--apps">
+          <h3 class="services__heading">Приложения</h3>
+          <p class="services__para">
+            Покорите топ-10 приложений в AppStore и Google Play
+          </p>
+          <a class="btn btn--green" href="#">Заказать</a>
+        </li>
+
+        <li class="services__item services__item--graphs">
+          <h3 class="services__heading">Презентации</h3>
+          <p class="services__para">
+            Вы даже не подозреваете, насколько вы изумительны!
+          </p>
+          <a class="btn btn--yellow" href="#">Заказать</a>
+        </li>
+      </ul>
+    </section>
+
+    <article class="about-us border-bottom container">
+      <section class="about-us__introduction">
+        <h2 class="visually-hidden">Кто мы такие?</h2>
+        <p class="about-us__slogan">
+          Мы — маленькая, но гордая дизайн-студия из Краснодара.
+        </p>
+        <p class="about-us__para">
+          Исповедуем принципы минимализма и чистоты. Ставим математический расчет превыше креатива. Работаем не покладая рук, как роботы.
+        </p>
+        <h4 class="about-us__heading">
+          Выполняем заказы на разработку:
+        </h4>
+        <ul class="about-us__list">
+          <li class="about-us__item">
+            Веб-сайтов любой сложности
+          </li>
+          <li class="about-us__item">
+            Мобильных приложений для iOS и Android
+          </li>
+          <li class="about-us__item">
+            Слайдшоу и видео для корпоративных презентаций
+          </li>
+        </ul>
+      </section>
+
+      <section class="about-us__brief">
+        <img class="about-us__logo" src="images/content/nerds-illustration.jpg" alt="Лого дизайн-студии Nёрдс">
+        <h4 class="about-us__heading about-us__heading--centered">
+          С 2004 года любим точность во всем:
+        </h4>
+        <dl class="about-us__stats">
+          <div class="about-us__col">
+            <dt>Уровень самоотдачи</dt>
+            <dd>146<span class="about-us__percentage">%</span></dd>
+          </div>
+
+          <div class="about-us__col">
+            <dt>Соблюдение сроков</dt>
+            <dd>100<span class="about-us__percentage">%</span></dd>
+          </div>
+
+          <div class="about-us__col">
+            <dt>Минимальная предоплата</dt>
+            <dd>50<span class="about-us__percentage">%</span></dd>
+          </div>
+        </dl>
+      </section>
+    </article>
+
+    <section class="partners border-bottom container">
+      <h2 class="visually-hidden">Наши партнеры и клиенты</h2>
+      <ul class="partners__list">
+        <li class="partners__item">
+          <a class="partners__link" href="#">
+            <img class="partners__logo" src="images/content/logo-1.png" width="199" height="68" alt="HTML Academy">
+          </a>
+        </li>
+        <li class="partners__item">
+          <a class="partners__link" href="#">
+            <img class="partners__logo" src="images/content/logo-2.png" width="209" height="90" alt="Barbershop Borodinsky">
+          </a>
+        </li>
+        <li class="partners__item">
+          <a class="partners__link" href="#">
+            <img class="partners__logo" src="images/content/logo-3.png" width="185" height="52" alt="Pink App">
+          </a>
+        </li>
+        <li class="partners__item">
+          <a class="partners__link" href="#">
+            <img class="partners__logo" width="173" height="84" src="images/content/logo-4.png" alt="Mishka Handmade">
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="map map--with-contacts">
+      <div class="container">
+        <article class="nerds-contacts nerds-contacts--on-map">
+          <div class="nerds-contacts__info">
+            <h3 class="minor-heading minor-heading__for-nerds-contacts">Nёrds Design Studio</h3>
+
+            <p class="nerds-contacts__address">191186, Санкт-Петербург,
+              <br>
+              ул. Б. Конюшенная, д. 19/8
+            </p>
+
+            <a class="nerds-contacts__phone" href="tel:+78122757575"> тел. +7 (812) 275-75-75</a>
+          </div>
+          <a href="#" class="btn btn--custom-size nerds-contacts__write-us">Напишите нам</a>
+        </article>
+      </div>
+
+      <iframe class="map__iframe" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.5989817947686!2d30.320959575543156!3d59.93879621560312!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywgMTkxMTg2!5e0!3m2!1sru!2sru!4v1505742543957">
+      </iframe>
+    </section>
+  </div>
+
+  <footer class="page-footer container">
+    <section class="page-footer__part page-footer__part--for-socials">
+      <h2 class="visually-hidden"></h2>
+      <ul class="social-icons">
+        <li class="social-icons__item">
+          <a class="social-icons__link" href="#">
+            <svg width="80" height="80">
+              <use xlink:href="images/icons/sprite.svg#icon-vk"></use>
+            </svg>
+            <span class="visually-hidden">Вконтакте</span>
+          </a>
+        </li>
+
+        <li class="social-icons__item">
+          <a class="social-icons__link" href="#">
+            <svg width="80" height="80">
+              <use xlink:href="images/icons/sprite.svg#icon-fb"></use>
+            </svg>
+            <span class="visually-hidden">Фейсбук</span>
+          </a>
+        </li>
+
+        <li class="social-icons__item">
+          <a class="social-icons__link" href="#">
+            <svg width="80" height="80">
+              <use xlink:href="images/icons/sprite.svg#icon-instagram"></use>
+            </svg>
+            <span class="visually-hidden">Инстаграм</span>
+          </a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="page-footer__part page-footer__part--for-slogan">
+      <div class="slogan">
+        <p class="slogan__heading">Давайте дружить, это выгодно!</p>
+        <p class="slogan__info">Скидка 10% для друзей из социальных сетей.</p>
+      </div>
+    </section>
+  </footer>
+
+  <form action="post" class="popup-form hidden">
+    <fieldset class="popup-form__field">
+      <legend class="popup-form__legend">Напишите нам</legend>
+
+      <div class="popup-form__part">
+        <div class="popup-form__input-container">
+          <label class="text-input">Ваше имя:
+            <input type="text" class="text-input__field" name="username" placeholder="Представьтесь, пожалуйста">
+          </label>
+        </div>
+
+        <div class="popup-form__input-container">
+          <label class="text-input">Ваш e-mail:
+            <input type="email" class="text-input__field" name="user_email" placeholder="Для отправки ответа" required>
+          </label>
+        </div>
+      </div>
+
+      <div class="popup-form__part popup-form__part--for-mail">
+        <div class="popup-form__input-container popup-form__input-container--for-textarea">
+          <label class="text-input">Текст письма:
+            <textarea name="user_mailtext" class="text-input__field popup-form__textarea" placeholder="В свободной форме"></textarea>
+          </label>
+
+        </div>
+        <div class="popup-form__btn-container">
+          <button type="submit" class="btn btn--custom-size">Отправить</button>
+        </div>
+      </div>
+
+    </fieldset>
+    <button type="button" class="close-cross-btn close-cross-btn--for-popup">
+      <span class="visually-hidden">Скрыть</span>
+    </button>
+  </form>
+
+  <script src="scripts/script.js"></script>
+</body>
+
+</html>
+
+© 2018 GitHub, Inc.
+Terms
+Privacy
+Security
+Status
+Help
+
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+
+Press h to open a hovercard with more details.
