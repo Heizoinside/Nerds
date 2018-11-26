@@ -30,24 +30,23 @@ a {
   text-decoration: none;
 }
 
-.main-wrapper {
-  width: 1440px;
-  margin: 0 auto;
-
-}
-
-.container {
-  width: 1161px;
-  margin: 0 auto;
-}
-.grey-layout {
-  background-color:#eee;
+.gray-layout {
   width:100%;
+  background-color:#eee;
 }
-
+.wrapper {
+  width:1440px;
+  margin:0 auto;
+}
+.container {
+  width:1160px;
+  margin:0 auto;
+}
 .navigation {
   display: flex;
   justify-content: space-between;
+  width:1161px;
+  margin:0 auto;
 }
 
 .main-navigation ul {
@@ -111,6 +110,9 @@ a {
   overflow: hidden;
   position: relative;
   margin-top: 10px;
+  width:1161px;
+  margin:0 auto;
+  padding-top:10px;
 }
 
 .slider input[type="radio"] {
@@ -187,7 +189,7 @@ a {
 }
 
 .slide-first img {
-  top: 1px;
+  top: 10px;
   right: 31px;
 }
 
