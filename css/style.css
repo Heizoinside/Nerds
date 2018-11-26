@@ -29,14 +29,12 @@ img {
 a {
   text-decoration: none;
 }
-
-.gray-layout {
-  width:100%;
-  background-color:#eee;
-  outline:1px solid red;
-}
 .wrapper {
-  width:1440px;
+  width:100%;
+  margin:0 auto;
+}
+.container {
+  width:1160px;
   margin:0 auto;
 }
 .navigation {
@@ -105,9 +103,6 @@ a {
   overflow: hidden;
   position: relative;
   margin-top: 10px;
-  width:1161px;
-  margin:0 auto;
-  padding-top:10px;
 }
 
 .slider input[type="radio"] {
