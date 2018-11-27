@@ -199,6 +199,56 @@
         <p>Скидка 10% для друзей из социальных сетей.</p>
       </section>
   </footer>
+  <section class="modal">
+    <h4 class="form-head">Напишите нам</h4>
+    <form  class="modal-form" action="https://echo.htmlacademy.ru" method="post">
+      <label class="name">
+        Ваше имя:<br />
+        <input class="user-name" type="text" name="name" placeholder="Имя Фамилия">
+      </label>
+      <label class="mail">
+        Ваш e-mail:<br />
+        <input type="email" class="user-mail" name="mail" placeholder="email@example.com">
+      </label>
+      <label class="text">
+        Текст письма:<br />
+        <textarea name="name" rows="8" cols="80"></textarea>
+      </label>
+    <button class="button modal-submit" type="submit">Отправить</button>
+    </form>
+    <button class="modal-close">Закрыть</button>
+  </section>
+  <script>
+    var link = document.querySelector(".btn-red-write");
+    var modal = document.querySelector(".modal");
+    var close = document.querySelector(".modal-close");
+    var form = modal.querySelector(".modal-form");
+    var data = modal.querySelector("input");
+
+    link.addEventListener("click", function (evt) {
+      evt.preventDefault();
+      modal.classList.add("modal-show");
+    });
+    close.addEventListener("click", function (evt) {
+      evt.preventDefault();
+      modal.classList.remove("modal-show");
+    });
+    form.addEventListener("submit", function (evt) {
+      if (!data.value) {
+      evt.preventDefault();
+      console.log("Нужно ввести свои данные");
+    }
+    });
+    window.addEventListener("keydown", function (evt) {
+      if (evt.keyCode === 27) {
+        evt.preventDefault();
+        if (modal.classList.contains("modal-show")) {
+          modal.classList.remove("modal-show");
+        }
+      }
+    });
+
+  </script>
 </body>
 
 </html>
