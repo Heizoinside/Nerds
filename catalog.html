@@ -68,17 +68,17 @@
           <label class="interface-radio">
             <input class="visually-hidden" type="radio" name="grid" value="adaptive" checked>
             <span class="radio-indicator"></span>
-            Адаптивная
+            <span class="radio-type">Адаптивная</span>
           </label>
           <label class="interface-radio">
             <input class="visually-hidden" type="radio" name="grid" value="fixed">
             <span class="radio-indicator"></span>
-            Фиксированная
+            <span class="radio-type">Фиксированная</span>
           </label>
           <label class="interface-radio">
             <input class="visually-hidden" type="radio" name="grid" value="rubber">
             <span class="radio-indicator"></span>
-            Резиновая
+            <span class="radio-type">Резиновая</span>
           </label>
         </fieldset>
         <fieldset class="advantage-type">
@@ -86,27 +86,27 @@
           <label class="interface-checkbox">
             <input class="visually-hidden" type="checkbox" name="slider" checked>
             <span class="checkbox-indicator"></span>
-            Слайдер
+            <span class="checkbox-type">Слайдер</span>
           </label>
           <label class="interface-checkbox">
             <input class="visually-hidden" type="checkbox" name="advantage-block">
             <span class="checkbox-indicator"></span>
-            Блок преимуществ
+            <span class="checkbox-type">Блок преимуществ</span>
           </label>
           <label class="interface-checkbox">
             <input class="visually-hidden" type="checkbox" name="news" checked>
             <span class="checkbox-indicator"></span>
-            Новости
+            <span class="checkbox-type">Новости</span>
           </label>
           <label class="interface-checkbox">
             <input class="visually-hidden" type="checkbox" name="gallery">
             <span class="checkbox-indicator"></span>
-            Галерея
+            <span class="checkbox-type">Галерея</span>
           </label>
           <label class="interface-checkbox">
             <input class="visually-hidden" type="checkbox" name="cart">
             <span class="checkbox-indicator"></span>
-            Корзина
+            <span class="checkbox-type">Корзина</span>
           </label>
         </fieldset>
         <button type="submit" class="button btn-big-grey">Показать</button>
@@ -124,90 +124,66 @@
           <li class="sorter-btns">
             <a class="sorter-btn" href="#">
               <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
-                <path fill="#231F20" d="M5.5 10L0 0h11" /></svg>
+                <path fill="#ededed" d="M5.5 10L0 0h11" /></svg>
               <span class="visually-hidden">Сортировка сверху вниз</span>
             </a>
             <a class="sorter-btn active" href="#">
               <svg xmlns="http://www.w3.org/2000/svg" width="11" height="10" viewBox="0 0 11 10">
-                <path fill="#231F20" d="M5.5 0L0 10h11z" /></svg>
+                <path fill="#ededed" d="M5.5 0L0 10h11z" /></svg>
               <span class="visually-hidden">Сортировка снизу вверх</span>
             </a>
           </li>
         </ul>
       </div>
       <ul class="templates-list">
-        <li class="template template-sedona">
-          <a class="template-link" href="#">
-            <div class="picture-wrapper" href="#">
-              <span class="round-toggle"></span>
-              <img src="img/img-sedona.jpg" alt="Сайт Седона">
-            </div>
-          </a>
+        <li class="template" tabindex="0">
+          <span class="round-toggle"></span>
+          <img src="img/img-sedona.jpg" alt="Сайт Седона">
           <div class="template-hover">
             <h3>Sedona</h3>
             <p>Информационный сайт<br /> для туристов</p>
             <a href="#" class="button btn-template">9 900 руб.</a>
           </div>
         </li>
-        <li class="template template-pink">
-          <a class="template-link" href="#">
-            <div class="picture-wrapper">
-              <span class="round-toggle"></span>
-              <img src="img/img-pink.jpg" alt="лендинг Pink">
-            </div>
-          </a>
+        <li class="template" tabindex="0">
+          <span class="round-toggle"></span>
+          <img src="img/img-pink.jpg" alt="лендинг Pink">
           <div class="template-hover">
             <h3>Pink app</h3>
             <p>Продуктовый лендинг<br />приложения для iOS и Android</p>
             <a href="#" class="button btn-template">9 900 руб.</a>
           </div>
         </li>
-        <li class="template template-barbershop">
-          <a class="template-link" href="#">
-            <div class="picture-wrapper">
-              <span class="round-toggle"></span>
-              <img src="img/img-barbershop.jpg" alt="сайт Бородинский">
-            </div>
-          </a>
+        <li class="template" tabindex="0">
+          <span class="round-toggle"></span>
+          <img src="img/img-barbershop.jpg" alt="сайт Бородинский">
           <div class="template-hover">
             <h3>barbershop</h3>
             <p>Сайт салона красоты для мужчин.</p>
             <a href="#" class="button btn-template">9 900 руб.</a>
           </div>
         </li>
-        <li class="template template-mishka">
-          <a class="template-link" href="#">
-            <div class="picture-wrapper">
-              <span class="round-toggle"></span>
-              <img src="img/img-mishka.jpg" alt="сайт Mishka ">
-            </div>
-          </a>
+        <li class="template" tabindex="0">
+          <span class="round-toggle"></span>
+          <img src="img/img-mishka.jpg" alt="сайт Mishka ">
           <div class="template-hover">
             <h3>mishka</h3>
             <p>Интернет-магазин вязаных игрушек</p>
             <a href="#" class="button btn-template">9 900 руб.</a>
           </div>
         </li>
-        <li class="template template-aplus">
-          <a class="template-link" href="#">
-            <div class="picture-wrapper">
-              <span class="round-toggle"></span>
-              <img src="img/img-aplus.jpg" alt="лендинг aplus">
-            </div>
-          </a>
+        <li class="template" tabindex="0">
+          <span class="round-toggle"></span>
+          <img src="img/img-aplus.jpg" alt="лендинг aplus">
           <div class="template-hover">
             <h3>a-plus</h3>
             <p>Лендинг курсов повышения квалификации</p>
             <a href="#" class="button btn-template">9 900 руб.</a>
           </div>
         </li>
-        <li class="template template-kvast">
-          <a class="template-link" href="#">
-            <div class="picture-wrapper">
-              <span class="round-toggle"></span>
-              <img src="img/img-kvast.jpg" alt="сайт кваст">
-            </div>
-          </a>
+        <li class="template" tabindex="0">
+          <span class="round-toggle"></span>
+          <img src="img/img-kvast.jpg" alt="сайт кваст">
           <div class="template-hover">
             <h3>Кваст</h3>
             <p>Промо-сайт производителя крафтового кваса</p>
@@ -216,17 +192,17 @@
         </li>
       </ul>
       <ul class="breadcumbs">
-        <li class="breadcumb active">
-          <a href="#">1</a>
+        <li>
+          <a class="breadcumb active" href="#">1</a>
         </li>
-        <li class="breadcumb">
-          <a href="#">2</a>
+        <li>
+          <a class="breadcumb" href="#">2</a>
         </li>
-        <li class="breadcumb">
-          <a href="#">3</a>
+        <li>
+          <a class="breadcumb" href="#">3</a>
         </li>
-        <li class="breadcumb next">
-          <a href="#">Следующая</a>
+        <li>
+          <a class="breadcumb next" href="#">Следующая</a>
         </li>
       </ul>
     </section>
